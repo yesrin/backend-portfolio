@@ -2,6 +2,7 @@
   "name": "portfolio-site",
   "version": "1.0.0",
   "description": "개인 포트폴리오 웹사이트",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "dev": "vite",
