@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { motion } from 'framer-motion'
-import { Mail, Phone, MapPin, Send, CheckCircle } from 'lucide-react'
+import { Mail, Phone, MapPin, Send, CheckCircle, Linkedin } from 'lucide-react'
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -38,19 +38,19 @@ const Contact = () => {
     {
       icon: Mail,
       title: '이메일',
-      value: 'your.email@example.com',
-      href: 'mailto:your.email@example.com'
+      value: 'asjs11@naver.com',
+      href: 'mailto:asjs11@naver.com'
     },
     {
-      icon: Phone,
-      title: '전화번호',
-      value: '+82 10-1234-5678',
-      href: 'tel:+821012345678'
+      icon: Linkedin,
+      title: 'LinkedIn',
+      value: 'https://www.linkedin.com/in/yesrin/',
+      href: 'https://www.linkedin.com/in/yesrin/'
     },
     {
       icon: MapPin,
       title: '위치',
-      value: '서울, 대한민국',
+      value: '인천, 대한민국',
       href: '#'
     }
   ]
@@ -184,7 +184,7 @@ const Contact = () => {
                       onChange={handleChange}
                       required
                       className="w-full px-4 py-3 border border-gray-300 dark:border-dark-600 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent bg-white dark:bg-dark-700 text-gray-900 dark:text-white"
-                      placeholder="홍길동"
+                      placeholder="서예린"
                     />
                   </div>
                   <div>
@@ -199,7 +199,7 @@ const Contact = () => {
                       onChange={handleChange}
                       required
                       className="w-full px-4 py-3 border border-gray-300 dark:border-dark-600 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent bg-white dark:bg-dark-700 text-gray-900 dark:text-white"
-                      placeholder="example@email.com"
+                      placeholder="asjs11@naver.com"
                     />
                   </div>
                 </div>

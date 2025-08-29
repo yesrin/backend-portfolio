@@ -1,14 +1,14 @@
 export const profile = {
   name: '서예린',
   role: '백엔드 개발자',
-  location: '인촌, 대한민국',
+  location: '인천, 대한민국',
   email: 'asjs11@naver.com',
   years: 3,
-  skills: ['Java', 'Express.js', 'Python', 'FastAPI', 'PostgreSQL', 'MongoDB', 'Redis', 'Docker', 'AWS'],
-  interests: ['대규모 트래픽', '마이크로서비스', '실시간 시스템', '성능 최적화'],
+  skills: ['Java', 'Spring Boot', 'Spring Data JPA', 'MySQL', 'Redis', 'JavaScript/TypeScript'],
+  interests: ['안정적인 백엔드 설계', '유지보수성', '클린 코드', '명시적 스타일', '쿼리 최적화'],
   highlights: [
-    'E-커머스 API 서버 설계/구현',
-    '실시간 채팅 서버 운영 경험',
-    '마이크로서비스 전환 PoC',
+    'JPA 기반 CRUD 및 쿼리 최적화 경험',
+    'Spring Boot로 안정적인 백엔드 아키텍처 설계',
+    '실무 중심의 유지보수 가능한 코드 작성',
   ],
 }
